@@ -4,6 +4,12 @@
 # contact: via discord -> iskender#8383
 # contact: via e-mail  -> iskender83@pm.me
 
+# Mail Me
+mailto:iskender83@pm.me?subject=Help%20About%20no-console.js
+
+# Download no-console.js repository as .zip file
+https://iskenderjs.github.io/no-console.js.html
+
 No-Console.js is used for blocking people from accessing:
 
 - Developer Tools, [ F12 ]
