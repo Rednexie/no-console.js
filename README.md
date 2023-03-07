@@ -45,3 +45,4 @@ If you want to log all of the suspected actions  EXCPECT RIGHT CLICK;
 If you don't want to send the copyright message,
 - Uncomment the first line of code.
 
+DO NOT FORGET TO ADD YOUR WEBHOOK URL ( Line 6 )
