@@ -17,3 +17,31 @@ or logging the user ip and the event with discord webhook API.
 
 Since this is a new (and also my first) repository, there might be a lot of bugs as you've expected, I will try to fix them.
 Thanks for using No-Console.js
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+USAGE 
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+If you want to log and block all of the suspected actions, don't change anything.
+
+If you want ONLY to log all of the suspected actions;
+
+- Comment the first block of code,
+- Uncomment the second block of code.
+
+If you want to log and block all of the suspected actions  EXCPECT RIGHT CLICK;
+- Comment the first block of code,
+- Uncomment the third block of code.
+
+If you want to log all of the suspected actions  EXCPECT RIGHT CLICK;
+- Comment the first block of code,
+- Uncomment the third block of code.
+
+If you don't want to send the copyright message,
+- Uncomment the first line of code.
+
