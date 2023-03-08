@@ -54,10 +54,9 @@ If you don't want to send the copyright message,
 - Uncomment the first line of code.
 
 If you want to;
-
-- Auto-clear all output;
-- Disable document.designMode;
-- Disable auto-correct;
+- Auto-clear all output,
+- Disable document.designMode,
+- Disable auto-complete,
 
 Place the function "disableConsole" into page onload.
 ```<body onload="disableConsole()">```
