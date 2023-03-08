@@ -21,6 +21,8 @@ No-Console.js is used for blocking people from accessing:
 
 or logging the user ip and the event with discord webhook API.
 
+It also has an option to disable javascript console output and autocorrect.
+
 Since this is a new (and also my first) repository, there might be a lot of bugs as you've expected, I will try to fix them.
 Thanks for using No-Console.js
 
@@ -50,5 +52,15 @@ If you want to log all of the suspected actions  EXCPECT RIGHT CLICK;
 
 If you don't want to send the copyright message,
 - Uncomment the first line of code.
+
+If you want to;
+
+- Auto-clear all output;
+- Disable document.designMode;
+- Disable auto-correct;
+
+Place the function "disableConsole" into page onload.
+```<body onload="disableConsole()">```
+
 
 DO NOT FORGET TO ADD YOUR WEBHOOK URL ( Line 6 )
