@@ -42,11 +42,11 @@ If you want ONLY to log all of the suspected actions;
 - Comment the first block of code,
 - Uncomment the second block of code.
 
-If you want to log and block all of the suspected actions  EXCPECT RIGHT CLICK;
+If you want to log and block all of the suspected actions  EXCEPT RIGHT CLICK;
 - Comment the first block of code,
 - Uncomment the third block of code.
 
-If you want to log all of the suspected actions  EXCPECT RIGHT CLICK;
+If you want to log all of the suspected actions  EXCEPT RIGHT CLICK;
 - Comment the first block of code,
 - Uncomment the third block of code.
 
