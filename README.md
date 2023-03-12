@@ -48,7 +48,7 @@ If you want to log and block all of the suspected actions  EXCEPT RIGHT CLICK;
 
 If you want to log all of the suspected actions  EXCEPT RIGHT CLICK;
 - Comment the first block of code,
-- Uncomment the third block of code.
+- Uncomment the fourth block of code.
 
 If you don't want to send the copyright message,
 - Uncomment the first line of code.
