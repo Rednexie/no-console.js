@@ -6,9 +6,7 @@
 
 # Mail Me
 mailto:iskender83@pm.me?subject=Help%20About%20no-console.js
-
-# Download no-console.js repository as .zip file
-https://iskenderjs.github.io/no-console.js.html
+https://iskenderjs.github.io/mail
 
 No-Console.js is used for blocking people from accessing:
 
