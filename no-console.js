@@ -3,8 +3,8 @@ const copyrightText = "\nNo-Console.js\nMade by iskenderjs\nhttps://github.com/i
 // block user opening context menu and developer tools 
 // Made with love by iskenderjs
 var WebhookURL = '';
-var userip = userip;
-
+var userip = useripaddr || null;
+const ms = 100;
 
 // THREAT LEVEL VE RENK EKLERİZ
 console.log("%c                                                                                                                                                                         \n                                                                                                                                                                     \n                                                                                                                                                                     \n                                                                                                                                                                     \n                                                                                                                                                                     \n                                                                                                                                                                     ", "color: black; background-image: linear-gradient(to right, #ff0000,#ff8000,#ffff00,#80ff00,#00ff00,#0080ff,#0000ff,#8000ff,#aa00ff); color: gray");
