@@ -13,6 +13,7 @@ console.log("%c                                                                 
 
     function disableConsole(){ 
         setInterval(
+            function(){
         // disable console autocorrect
         document.designMode = 'off';
         console.clear();
@@ -24,7 +25,7 @@ console.log("%c                                                                 
     
     );
 
-
+    }
 
 
 
