@@ -12,6 +12,7 @@ console.log("\n\nN O - C O N S O L E . J S - Made with love by iskenderjs\n\n");
 console.log("%c                                                                                                                                                                         \n                                                                                                                                                                     \n                                                                                                                                                                     \n                                                                                                                                                                     \n                                                                                                                                                                     \n                                                                                                                                                                     ", "color: black; background-image: linear-gradient(to right, #ff0000,#ff8000,#ffff00,#80ff00,#00ff00,#0080ff,#0000ff,#8000ff,#aa00ff); color: gray");
 
     function disableConsole(){ 
+        setTimeout(
         // disable console autocorrect
         document.designMode = 'off';
         console.clear();
