@@ -207,7 +207,7 @@ document.addEventListener("keydown", function (event) {
     */
  
 
-    // LOG AND BLOCK SUSPICIOUS ACTIONS EXPECT RIGHT CLICK
+    // LOG AND BLOCK SUSPICIOUS ACTIONS EXCEPT RIGHT CLICK
     // CODE BLOCK 3
 /*
 
@@ -270,7 +270,7 @@ document.addEventListener("keydown", function (event) {
     */
 
 
-    // LOG SUSPICIOUS ACTIONS EXCEPT RIGHT CLICK
+    // LOG SUSPICIOUS ACTIONS EXPECT RIGHT CLICK
     // CODE BLOCK 4
     /*
 
