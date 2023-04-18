@@ -1,8 +1,8 @@
 # no-console.js
-# made by iskenderjs
+# made by mereniskender
 # in case of any problems, don't hesitate to contact me
-# contact: via discord -> iskender#8383
-# contact: via e-mail  -> iskender83@pm.me
+# contact: discord -> iskender#8383
+# contact: e-mail  -> iskender83@pm.me
 
 # Mail Me
 mailto:iskender83@pm.me?subject=Help%20About%20no-console.js
