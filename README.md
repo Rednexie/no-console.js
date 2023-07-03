@@ -11,7 +11,7 @@ No-Console.js is used for blocking people from accessing:
 - Save Page Source, [ CTRL+ S ]
 - Context Menu; [ Right Click]
 
-or logging the user ip and the event with discord webhook API.
+as well as logging the user ip and the event with discord webhook API.
 
 It also has an option to disable javascript console output and autocorrect.
 
