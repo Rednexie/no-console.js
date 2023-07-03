@@ -1,8 +1,6 @@
 # no-console.js
 # made by rednexie
-# in case of any problems, don't hesitate to contact me
 
-# Mail Me
 
 No-Console.js is used for blocking people from accessing:
 
