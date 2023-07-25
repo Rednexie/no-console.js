@@ -1,8 +1,12 @@
 # no-console.js
-# made by rednexie
+
+
+
+# functionality
 
 
 No-Console.js is used for blocking people from accessing:
+
 
 - Developer Tools, [ F12 ]
 - Javascript Console, [ CTRL + SHIFT + J ]
@@ -10,48 +14,27 @@ No-Console.js is used for blocking people from accessing:
 - View Page Source, [ CTRL + U ]
 - Save Page Source, [ CTRL+ S ]
 - Context Menu; [ Right Click]
+- Firefox Inspect Element [ CTRL + SHIFT + C ]
+- Firefox Javascript Console [ CTRL + SHIFT + K ]
 
-as well as logging the user ip and the event with discord webhook API.
+as well as logging the user ip and the event description with discord webhook API.
 
-It also has an option to disable javascript console output and autocorrect.
+no-console.js has an option to auto disable:
+- Autocorrect functionality in Javascript Console.
+- Document Design Mode
+- Javascript Console Output.
 
-Since this is a new (and also my first) repository, there might be a lot of bugs as you've expected, I will try to fix them.
-Thanks for using No-Console.js
+# Usage
 
+The constant `WebhookURL` is your discord webhook api url.
 
+Don't forget to add your webhook url, or change the constant `log` to false. This disables webhook api log feature.
 
+If you don't want to block the actions, only log them, change the constant `block` to false. This disables the blocking feauture.
 
---------------------------------------------------------------------------------------------------------------------------------------------
+If you want to let your clients use context menu, change the constant `rightclick` to false. This enables context menu back.
 
-USAGE 
+If you don't want to disable autocorrect and design mode, change the constant `disable` to false. 
 
---------------------------------------------------------------------------------------------------------------------------------------------
+The constant `delay` indicates the delay between clearing the console.
 
-If you want to log and block all of the suspected actions, don't change anything.
-
-If you want ONLY to log all of the suspected actions;
-
-- Comment the first block of code,
-- Uncomment the second block of code.
-
-If you want to log and block all of the suspected actions  EXCEPT RIGHT CLICK;
-- Comment the first block of code,
-- Uncomment the third block of code.
-
-If you want to log all of the suspected actions  EXCEPT RIGHT CLICK;
-- Comment the first block of code,
-- Uncomment the fourth block of code.
-
-If you don't want to send the copyright message,
-- Uncomment the first line of code.
-
-If you want to;
-- Auto-clear all output,
-- Disable document.designMode,
-- Disable auto-complete,
-
-Place the function "disableConsole" into page onload.
-```<body onload="disableConsole()">```
-
-
-DO NOT FORGET TO ADD YOUR WEBHOOK URL ( Line 6 )
