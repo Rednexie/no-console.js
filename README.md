@@ -2,7 +2,7 @@
 
 
 
-# functionality
+# Functionality
 
 
 No-Console.js is used for blocking people from accessing:
