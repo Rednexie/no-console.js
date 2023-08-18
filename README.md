@@ -1,6 +1,7 @@
 # no-console.js
 
-
+Javascript dev-tools blocker and page source protector.
+https://rednexie.github.io/cdn/no-console.js
 
 # Functionality
 
