@@ -153,13 +153,16 @@ document.addEventListener("keydown", (event) => {
 document.addEventListener("contextmenu", (event) => {
     const events = "Right Click - Context Menu"
     const description = "User with the ip address above has clicked Right Click to open Context Menu on their browser.\nNo-Console.js logged blocked the action."
-    if(rightclick !== true) {
-        console.warn("no-console.js has not blocked the action. Please make sure to configure it if you want it to block the action.")
+    if(rightclick == true) {
+        event.preventDefault()
         console.error("[no-console.js] " + events)
         return
     } 
+    else{
+        console.warn("no-console.js has not blocked the action. Please make sure to configure it if you want it to block the action.")
+    }
     if(log == true) webhook(WebhookURL,description,events)
-    event.preventDefault()
+    
 })
 
 
