@@ -37,6 +37,9 @@ If you don't want to block the actions, only log them, change the constant `bloc
 
 If you want to let your clients use context menu, change the constant `rightclick` to false. This enables context menu back.
 
+# Possible Updates:
+- Detection of open dev tools (document unfocus).
+
 If you don't want to disable autocorrect and design mode, change the constant `disable` to false. 
 
 The constant `delay` indicates the delay between clearing the console. It is defaulted to 100 milliseconds.
