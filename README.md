@@ -3,7 +3,7 @@
 Javascript dev-tools blocker and page source protector.
 
 
-https://rednexie.github.io/cdn/no-console.js
+[https://rednexie.github.io/cdn/no-console.js](https://cdn.jsdelivr.net/gh/Rednexie/no-console.js@main/no-console.js)
 
 # Functionality
 
